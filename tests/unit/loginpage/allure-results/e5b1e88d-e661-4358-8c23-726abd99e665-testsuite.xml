@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1521119919101' stop='1521119937284'>
+    <name>Protractor Demo</name>
+    <title>Protractor Demo</title>
+    <test-cases>
+        <test-case start='1521119919102' status='passed' stop='1521119931983'>
+            <name>should successfully LOGIN and SELECT A PROPERTY -Fair (Eg.,)</name>
+            <title>should successfully LOGIN and SELECT A PROPERTY -Fair (Eg.,)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='17c3aa2b-a768-4d69-917d-ecb6836f616e-attachment.png' type='image/png' size='124707'/>
+            </attachments>
+        </test-case>
+        <test-case start='1521119931983' status='passed' stop='1521119934123'>
+            <name>should navigate to BUDGETING Page successfully</name>
+            <title>should navigate to BUDGETING Page successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='be32ab7d-00a6-46a9-a985-422f713a9fef-attachment.png' type='image/png' size='52348'/>
+            </attachments>
+        </test-case>
+        <test-case start='1521119934123' status='passed' stop='1521119935340'>
+            <name>should navigate to BUDGETING Page and verify product Name</name>
+            <title>should navigate to BUDGETING Page and verify product Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8a5268ff-6377-4d9f-af16-4cd6be90c0a7-attachment.png' type='image/png' size='111110'/>
+            </attachments>
+        </test-case>
+        <test-case start='1521119935341' status='passed' stop='1521119937284'>
+            <name>should signout successfully</name>
+            <title>should signout successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c5d873a2-61cd-44fd-83d0-cdd8fc4e52ed-attachment.png' type='image/png' size='17773'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,69 @@
+{
+  "name": "raul-ui-automation",
+  "version": "1.0.0",
+  "description": "Initial code for RAUL UI Automation",
+  "main": "protractor.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "array-unique": "^0.3.2",
+    "body-parser": "^1.18.2",
+    "browserstack-local": "^1.3.0",
+    "bunyan": "^1.8.12",
+    "emailjs": "^2.0.0",
+    "git": "^0.1.5",
+    "gulp": "^3.9.1",
+    "gulp-angular-protractor": "^1.1.1",
+    "gulp-protractor": "^4.1.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.0.0",
+    "make-dir": "^1.2.0",
+    "maven": "^4.4.0",
+    "mkdirp-promise": "^5.0.1",
+    "node-native-zip": "^1.1.0",
+    "nodejs-nodemailer-outlook": "^1.0.8",
+    "nodemailer": "^4.6.2",
+    "postmark": "^1.6.1",
+    "protractor": "^5.3.2",
+    "protractor-beautiful-reporter": "^1.2.4",
+    "protractor-flake": "^3.1.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+    "protractor-take-screenshots-on-demand": "^1.2.0",
+    "webdriver-manager": "^12.0.6",
+    "xlsx": "^0.12.7",
+    "yargs": "^12.0.1",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-protractor-runner": "^5.0.0",
+    "grunt-protractor-webdriver": "^0.2.5",
+    "grunt-selenium-server": "^0.1.7",
+    "grunt-shell-spawn": "^0.3.10",
+    "jasmine-expect": "^3.8.3",
+    "jasmine-reporters": "^2.3.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-beautiful-reporter": "^1.2.4",
+    "protractor-cucumber-framework": "^6.0.0",
+    "protractor-errors": "^2.0.0",
+    "protractor-retry": "^1.2.0",
+    "webdriver-manager": "^12.1.0",
+    "zip-local": "^0.3.4"
+  },
+  "scripts": {
+    "protractor": "webdriver-manager start && protractor tests/e2e/conf.js",
+    "test-smoke": "npm run protractor",
+    "flake-SIT": "./OCR.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://rcetfsalmweb001:8080/tfs/DefaultCollection/Propertyware/Propertyware%20Team/_git/RAUL-TestAutomation"
+  },
+  "author": "B Vinay Kumar",
+  "license": "ISC"
+}
