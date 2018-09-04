@@ -2,8 +2,6 @@ var browser = require("protractor").protractor.browser;
 var Enterprisepage = require("../../Page objects/Dashboard/enterpriseorg.po");
 var loginpage = require("../../Page objects/Common/loginpage.po");
 var commonlib = require("../../Page objects/Common/common.po");
-var dt = new Date();
-var utcDate = dt.toUTCString();
 var until = protractor.ExpectedConditions;
 describe("Enterprise Org", function () {
   jasmine

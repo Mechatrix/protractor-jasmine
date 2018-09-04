@@ -48,6 +48,8 @@
     "jasmine-expect": "^3.8.3",
     "jasmine-reporters": "^2.3.1",
     "jasmine-spec-reporter": "^4.2.1",
+    "jshint": "^2.9.6",
+    "jslint": "^0.12.0",
     "protractor-beautiful-reporter": "^1.2.4",
     "protractor-cucumber-framework": "^6.0.0",
     "protractor-errors": "^2.0.0",
